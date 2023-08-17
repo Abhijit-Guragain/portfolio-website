@@ -1,0 +1,98 @@
+/* Contact.css */
+.contact-section {
+  padding: 10px;
+  background-color: rgb(85, 90, 75);
+  border-radius: 10px;
+}
+
+.contact-content {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+.contact-form {
+  max-width: 400px;
+  margin-bottom: 20px;
+}
+
+.contact-form label,
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.contact-info {
+  text-align: center;
+}
+.contact-info p {
+  font-size: 17px;
+}
+
+.social-links {
+  margin-top: 10px;
+}
+
+.social-links a {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+/* Responsive Styles */
+@media (min-width: 768px) {
+  .contact-content {
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+  }
+
+  .contact-form {
+    margin-right: 20px;
+    margin-bottom: 0;
+  }
+
+  .contact-info {
+    text-align: center;
+  }
+}
+.inputFeild {
+  background: rgb(107, 112, 95);
+  border: 0;
+  border-bottom: 1px solid rgb(88, 193, 28);
+  border-radius: 5px;
+  color: #e1e1e1;
+}
+
+.email,
+.name {
+  height: 20px;
+}
+.submit-btn {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.submit-btn button {
+  width: 70%;
+  background-color: rgb(51, 46, 40);
+  height: 30px;
+  color: #e1e1e1;
+  border: none;
+  border-radius: 30px;
+  font-size: large;
+}
+
+/* Additional Responsive Styles for Small Screens */
+@media (max-width: 342px) {
+  .contact-content {
+    flex-direction: column-reverse;
+  }
+
+  .contact-form,
+  .contact-info {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}

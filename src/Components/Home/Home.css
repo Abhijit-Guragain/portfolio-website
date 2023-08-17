@@ -1,0 +1,11 @@
+.home {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.myName {
+  font-size: 60px;
+  font-weight: bold;
+}

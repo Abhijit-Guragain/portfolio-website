@@ -1,0 +1,30 @@
+/* Work.css */
+.work-container {
+  text-align: center;
+  margin: 20px 0;
+  height: auto;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+}
+
+.grid-container > div {
+  padding: 20px;
+  text-align: center;
+}
+
+.myWork {
+  width: 200px;
+  height: 17vh;
+  border-radius: 20px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.myWork:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 8px rgba(171, 195, 124, 0.751);
+}

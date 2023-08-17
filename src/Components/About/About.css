@@ -1,0 +1,58 @@
+/* About.css */
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.about {
+  display: flex;
+  flex-direction: column-reverse;
+  margin: 10px 0px;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgb(85, 90, 75);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.intro {
+  max-width: 100%;
+  width: 100%;
+  /* text-align: justify; */
+  margin-bottom: 20px;
+}
+
+.intro p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.myImg {
+  max-width: 100%;
+  height: auto;
+  border-radius: 30px;
+  margin-top: 20px;
+}
+
+/* Responsive Styles */
+@media (min-width: 768px) {
+  .about {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+  }
+
+  .intro {
+    max-width: 50%;
+    margin-right: 20px;
+    margin-bottom: 0;
+  }
+
+  .myImg {
+    width: 250px;
+    height: auto;
+    margin-top: 0;
+  }
+}
+@media (max-width: 442px) {
+  .intro p{
+    font-size: 15px;
+  }
+}
